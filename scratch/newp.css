@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.grid{
+    width: 850px;
+    background-attachment: fixed;
+    height: 500px;
+    background-color: rgb(250, 241, 241);
+    margin-left: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0;
+}
+.settings{
+    display: flex;
+    height: 500px;
+    width: 350px;
+    background-image: radial-gradient(blanchedalmond 30%,  rgb(250,120,120));
+   position: relative;
+   bottom: 500px;
+   left: 940px;
+   border: 2px solid black;
+   flex-direction: column;
+   font-family: 'Honk', system-ui;
+   font-size: 1.8rem;
+   text-align: center;
+   align-items: center;
+   border-radius: 6%;
+}
+header h2 {
+    text-align: center;
+    position: relative;
+    left: 115px;
+   
+    bottom: 38px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(233, 74, 74);
+    height: 65px;
+    margin-bottom: 20px;
+    font-family: 'Honk', system-ui;
+    font-size: 1.9rem;
+  
+}
+.row{
+    background-color: rgb(228, 235, 235);
+    width: auto;
+    height: auto;
+    border: 0.1px solid black;
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+}
+.row-bk{
+    background-color: black;
+    width: auto;
+    height: auto;
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+    border: 0.1px solid black;
+}
+.settings button, input{
+    width: 200px;
+    height: 50px;
+    font-family: 'Honk', system-ui;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#aply{
+    margin-top: 20px;
+}
+.label{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.settings h2{
+    font-size: 3.9rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+button{
+    margin-bottom: 20px;
+    font-family: 'Honk', system-ui;
+    font-size: 1.9rem;
+}
+
+
