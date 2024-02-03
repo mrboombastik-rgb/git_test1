@@ -1,0 +1,67 @@
+:root{
+    --color-background: #f0f0ca;
+    --color-input-container: 
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(24,41,204,1) 0%, rgba(21,168,210,1) 76%, rgba(0,212,255,1) 100%);
+   background-attachment: fixed;
+   background-repeat:no-repeat;
+}
+.container-title h2{
+    text-align: center;
+    position:relative;
+    top: 30px;
+    font-size: 3.1rem;
+    color: beige;
+}
+.container-title{
+  
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Single Day', cursive;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    background-color: var(--color-background);
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    font-family: 'Single Day', cursive;
+    border: 20px solid rgba(253, 253, 5, 0.598);
+}
+.input-container input{
+    width: 325px;
+    height: 48px;
+    font-family: 'Single Day', cursive;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.input-container label{
+    padding-bottom: 25px;
+    font-size: 1.7rem;
+}
+.input-container p{
+    font-size: 1.5rem;
+    
+}
+
+.input-container button{
+    width: 130px;
+    height: 28px;
+    position: relative;
+    top: 12px;
+    font-family: 'Single Day', cursive;
+    font-size: 1.2rem;
+    background-color: #ede778 ;
+    border-radius: 8%;
+}
